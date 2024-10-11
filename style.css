@@ -23,7 +23,33 @@ main{
 }
 
 table{
-    
+
+}
+
+.gallery{
+    background-color: blue;
+    height: 300px;
+    width: auto;
+}
+
+.pic1{
+    min-height: 300px;
+    width: 25%;
+}
+
+.pic2{
+    min-height: 300px;
+    width: 25%;
+}
+
+.pic3{
+    min-height: 300px;
+    width: 25%;
+}
+
+.pic4{
+    min-height: 300px;
+    width: 25%;
 }
 
 footer{
