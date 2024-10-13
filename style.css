@@ -144,7 +144,11 @@ footer{
     margin-right: auto;
     width: auto;
 }
-
+a
+{
+    color: rgb(84, 61, 211);
+    text-decoration: none;
+}
 a:hover{
     color: yellow;
 }
