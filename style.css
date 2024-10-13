@@ -1,38 +1,97 @@
+
 body{
+    background-color: #FFDEE9;
+background-image: linear-gradient(45deg, #FFDEE9 0%, #B5FFFC 100%);
+background-repeat: no-repeat;
+background-size: cover;
+
+    
     
 }
 header{
     text-align: center;
-    height: 75px;
-    padding-top: auto;
-    padding-bottom: auto;
+    height: 150px;
+    
+    padding: auto;
+    background-color: rgba(173, 216, 230, 0.338);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid yellow ;
+    
+    
+    
+    
 }
+
+.sun
+{
+    
+    text-align: left;
+}
+
+
+.sun2
+{
+    
+    text-align: right;
+}
+
+
 
 nav{
-    background-color: red;
-    height: 50px;
+    
+    height: 400px;
+    padding-top: 50px;
+    background-color: rgba(255, 0, 255, 0.138);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
 }
 
+.Kindergarten
+{
+    text-align: center;
+padding-top: auto;
+padding-bottom: auto;
+align-items: center;
+}
+
+
 main{
-    background-color: yellow;
+    
     height: 400px;
     text-align: center;
     padding-top: 80px;
     padding-left: 250px;
     padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-table{
+.table{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .gallery{
-    background-color: blue;
+    
     height: 300px;
+    padding-top: 100px;
     width: auto;
+    display: flex;
 }
 
 .pic1{
+    
     min-height: 300px;
     width: 25%;
 }
@@ -52,14 +111,43 @@ table{
     width: 25%;
 }
 
+.teachers
+{
+display: flex;
+justify-content: space-around;
+}
+
+.teacher1
+{
+
+}
+
+.teacher2
+{
+    
+}
+
+.teacher3
+{
+    
+}
+
 footer{
-    background-color: green;
+    
     height: 50px;
+    
 }
 
 .container{
-    background-color: lightsalmon;
+    
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
+
+a:hover{
+    color: yellow;
+}
+
+
+
