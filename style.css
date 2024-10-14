@@ -15,6 +15,7 @@ header{
     padding: auto;
     background-color: rgba(173, 216, 230, 0.338);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border: 3px solid yellow ;
@@ -88,6 +89,7 @@ main{
     padding-top: 100px;
     width: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -111,6 +113,7 @@ main{
 {
     min-height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
