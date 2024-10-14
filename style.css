@@ -1,73 +1,64 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
 
 body{
     background-color: #FFDEE9;
-background-image: linear-gradient(45deg, #FFDEE9 0%, #B5FFFC 100%);
-background-repeat: no-repeat;
-background-size: cover;
-
-    
-    
+    background-image: linear-gradient(45deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
+
 header{
     text-align: center;
-    height: 150px;
-    
-    padding: auto;
+    height: 100px;
+    width: auto;
+    padding-left: auto;
+    padding-right: auto;
     background-color: rgba(173, 216, 230, 0.338);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+nav{
+    
+    min-height: 100px;
+    background-color: rgba(255, 0, 255, 0.138);
+    text-align: center;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid yellow ;
-    
-    
-    
-    
+    border: 3px solid yellow ; 
 }
 
 .sun
 {
-    
     text-align: left;
 }
 
-
 .sun2
 {
-    
     text-align: right;
-}
-
-
-
-nav{
-    
-    min-height: 400px;
-    padding-top: 50px;
-    background-color: rgba(255, 0, 255, 0.138);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-    
 }
 
 .Kindergarten
 {
     text-align: center;
-padding-top: auto;
-padding-bottom: auto;
-align-items: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    align-items: center;
+    border-bottom: 3px solid hotpink;
 }
 
 
 main{
     text-align: center;
-    height: 400px;
-    padding-top: 80px;
+    min-height: auto;
+    padding-top: 20px;
     padding-left: auto;
     padding-right: auto;
     display: flex;
@@ -78,39 +69,39 @@ main{
 .table{
     align-items:center;
     text-align: center;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
-
+    border-bottom: 3px solid hotpink;
 }
 
 .gallery{
-    
     min-height: 300px;
-    padding-top: 100px;
+    padding-top: 50px;
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-bottom: 3px solid hotpink;
 }
 
-.pic1{
-    width: 25%;
+.gallery div {
+    flex: 1 1 35%; /* This ensures each div takes up 25% of the row */
+    max-width: 35%; /* Limits the width to 25% */
+    box-sizing: border-box; /* Includes padding and borders in width calculations */
+    padding-bottom: 20px;
 }
 
-.pic2{
-    width: 25%;
-}
-
-.pic3{
-    width: 25%;
-}
-
-.pic4{
-    width: 25%;
+.gallery img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid hotpink;
 }
 
 .teachers
 {
+    padding-top: 20px;
     min-height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -138,12 +129,6 @@ footer{
     
 }
 
-.container{
-    
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
 a
 {
     color: rgb(84, 61, 211);
