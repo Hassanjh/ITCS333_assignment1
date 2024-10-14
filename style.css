@@ -141,5 +141,21 @@ a:hover{
     color: yellow; /*Color of the link itself when cursor hovers on it*/
 }
 
+/* Media query for webpage to be responsive on mobile phones */
+@media mobile and (max-width: 768px) {
 
+    .container, .Kindergarten img, .table table, .gallery div, .teachers div {
+        width: 100%; /* Full width for these so they can take all of the mobile screen */
+    }
+
+    /* To stack them all up vertically */
+    header, nav, .gallery, .teachers {
+        flex-direction: column; /*so that the images and all the links in nav can be vertical for mobiles*/
+        align-items: center; /*To make them at the center of the screen*/
+    }
+
+    main, nav, .gallery {
+        padding: 10px; /* little padding so they dont stick*/
+    }
+}
 
