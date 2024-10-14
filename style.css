@@ -142,7 +142,7 @@ a:hover{
 }
 
 /* Media query for webpage to be responsive on mobile phones */
-@media mobile and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .container, .Kindergarten img, .table table, .gallery div, .teachers div {
         width: 100%; /* Full width for these so they can take all of the mobile screen */
