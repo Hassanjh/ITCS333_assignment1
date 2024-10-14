@@ -1,18 +1,18 @@
 /* Container for overall page */
 .container{
-    font-family: "comic neue", cursive;
+    font-family: "comic neue", cursive; 
     font-style: normal;
     margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    margin-right: auto;  /*So container is centered */
+    width: auto; 
 }
 
 /* Body background styling */
 body{
     background-color: #FFDEE9;
     background-image: linear-gradient(45deg, #FFDEE9 0%, #B5FFFC 100%);
-    background-repeat: no-repeat;
-    background-size: cover;   
+    background-repeat: no-repeat;   /*so the gradient doesnt reset and repeat */
+    background-size: cover;   /*so the gradient background covers the whole page */
 }
 
 /* Header styling */
@@ -23,10 +23,10 @@ header{
     padding-left: auto;
     padding-right: auto;
     background-color: rgba(173, 216, 230, 0.338);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;    
+    display: flex; /*flexbox for layout*/
+    flex-wrap: wrap;  /*  to wrap when there is an overflow*/
+    justify-content: center; /*so content is centered horizontally in header*/
+    align-items: center;    /*so content is centered vertically*/
 }
 
 /* Navigation bar styling */
@@ -36,7 +36,7 @@ nav{
     background-color: rgba(255, 0, 255, 0.138);
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*to spread content evenly in the nav space*/
     align-items: center;
     border: 3px solid yellow ; 
 }
@@ -56,22 +56,22 @@ nav{
 /* Kindergarten section styling */
 .Kindergarten
 {
-    text-align: center;
+    text-align: center; 
     padding-top: auto;
-    padding-bottom: auto;
-    align-items: center;
-    border-bottom: 3px solid hotpink;
+    padding-bottom: auto;  /*flexible padding for top and bottom*/
+    align-items: center;  /*vertically centered*/
+    border-bottom: 3px solid hotpink; /*border at the end to seperate from the table sevtion*/
 }
 
 /* Main content area styling */
 main{
     text-align: center;
-    min-height: auto;
-    padding-top: 20px;
+    min-height: auto; /*flexible minimum height*/
+    padding-top: 20px;  
     padding-left: auto;
     padding-right: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*for the flexbox layout to be in a column style*/
     
 }
 
@@ -82,32 +82,32 @@ main{
     padding-top: 25px;
     display: flex;
     flex-direction: column;
-    border-bottom: 3px solid hotpink;
+    border-bottom: 3px solid hotpink; /* horizontl line to seperate from gallery section*/
 }
 
 /* Gallery section styling */
 .gallery{
     min-height: 300px;
-    padding-top: 50px;
+    padding-top: 50px; /*bottom padding to seperate pictures from each ither vertically*/
     width: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap; /*to allow for wrapping if necessary*/
+    justify-content: space-around; /*To space the images evenly around each other */
     border-bottom: 3px solid hotpink;
 }
 
 .gallery div {
-    flex: 1 1 35%; /* This ensures each div takes up 25% of the row */
-    max-width: 35%; /* Limits the width to 25% */
-    box-sizing: border-box; /* Includes padding and borders in width calculations */
+    flex: 1 1 35%; /* This makes sure that each div takes up 35% of the row */
+    max-width: 35%; /* Limits the width to 35% */
+    box-sizing: border-box; /* Includes padding and borders in the width */
     padding-bottom: 20px;
 }
 
 .gallery img{
-    width:100%;
+    width:100%; /*So the images take the full width of their div*/
     height: auto;
-    object-fit: cover;
-    border: 3px solid hotpink;
+    object-fit: cover; /*So the images cover the entire container without being distorted*/
+    border: 3px solid hotpink; /*border around each image*/
 }
 
 /* Teachers section styling */
@@ -116,39 +116,29 @@ main{
     padding-top: 20px;
     min-height: 300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap; /*To allow for wrapping if necessary*/
+    justify-content: space-between; /*To create space between each picture*/
 }
 
-.teacher1
+.teacher1, .teacher2, .teacher3
 {
-    width: 30%;
-}
-
-.teacher2
-{
-    width: 30%;
-}
-
-.teacher3
-{
-    width: 30%;
+    width: 30%; /*Each image takes 30% width*/
 }
 
 footer{
     
-    height: 50px;
+    height: 50px; /*fixed footer height*/
     
 }
 
 a
 {
-    color: rgb(84, 61, 211);
-    text-decoration: none;
+    color: rgb(84, 61, 211); /*normal color of the links*/
+    text-decoration: none; /*to remove underlines*/
 }
 a:hover{
-    background-color:hotpink;
-    color: yellow;
+    background-color:hotpink; /*backgorund color of the links when cursor hovers on them*/
+    color: yellow; /*Color of the link itself when cursor hovers on it*/
 }
 
 
